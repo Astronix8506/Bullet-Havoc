@@ -222,10 +222,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8af64805b633ed64bac6088d3e24a551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 6
-  dashSpeed: 0
-  dashCounter: 0
-  dashCooldown: 0
+  playerMoveSpeed: 6
+  activePlayerMoveSpeed: 0
+  dashSpeed: 30
+  dashRate: 6
 --- !u!50 &267097973
 Rigidbody2D:
   serializedVersion: 4
