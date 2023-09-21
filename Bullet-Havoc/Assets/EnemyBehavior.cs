@@ -35,7 +35,7 @@ public class EnemyBehavior : MonoBehaviour
         }
         else
         {
-            activeEnemySpeed = 5;
+            activeEnemySpeed = 2;
             transform.position = Vector2.MoveTowards(this.transform.position, backNode.transform.position, activeEnemySpeed * Time.deltaTime);
         }
 
